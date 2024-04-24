@@ -8,3 +8,13 @@
 #   with-sources: false
 
 -e file:.
+brotli==1.1.0
+    # via py-compress-compare
+lz4==4.3.3
+    # via py-compress-compare
+numpy==1.26.4
+    # via py-compress-compare
+redis==5.0.4
+    # via py-compress-compare
+zstandard==0.22.0
+    # via py-compress-compare
