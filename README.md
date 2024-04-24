@@ -1,5 +1,12 @@
 # py-compress-compare
+
 Compression algorithm comparisions for python libraries
+
+This test took ~1MB sample_data.json and did this:
+
+1. 1000 compress calls with write to redis
+2. 10000 decompress calls after reading from redis
+3. The time is in seconds 
 
 ```json
 {
