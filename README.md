@@ -8,7 +8,8 @@ Our test involved a dataset roughly 581 KB in size, named sample_data.json. We e
 
 * Compression was performed 1000 times.
 * Decompression was repeated 10,000 times.
-* This rigorous testing framework ensures that we obtain a solid understanding of each library's performance under heavy load.
+
+This rigorous testing framework ensures that we obtain a solid understanding of each library's performance under heavy load.
 
 ## Compression Ratio
 
