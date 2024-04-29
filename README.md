@@ -1,6 +1,6 @@
 # Comparing Python Compression Libraries: zlib, LZ4, Brotli, and Zstandard
 
-In our never-ending quest to optimize data storage and transmission, compression remains a vital tool. Today, I'm delving into a comparison of four popular Python libraries for compression—zlib, LZ4, Brotli, and Zstandard. My focus is on their compression ratio, compression time, and decompression time using a ~2.5MB JSON file, sample_data.json. Please note that I created this comarition to determine what is the best way to cache compressed data in Redis as a part of my work. Which is why you will find I have used Redis (which may not be something you need to purely test these libraries).
+In our never-ending quest to optimize data storage and transmission, compression remains a vital tool. Today, I'm delving into a comparison of four popular Python libraries for compression—zlib, LZ4, Brotli, and Zstandard. My focus is on their compression ratio, compression time, and decompression time using a ~2.5MB JSON file, sample_data.json. Please note that I created this comparision to determine what is the best way to cache compressed data in Redis as a part of my work. Which is why you will find I have used Redis (which may not be something you need to purely test these libraries).
 
 ## Methodology
 
