@@ -1,5 +1,4 @@
 import json
-import redis
 import time
 import zlib
 import lz4.frame
@@ -10,10 +9,8 @@ import numpy as np
 # Read JSON file
 with open('sample_data.json', 'r') as file:
     data = json.dumps(json.load(file))
+    
 data_bytes = data.encode('utf-8')
-
-# Initialize Redis
-r = redis.Redis(host='localhost', port=6379, db=0)
 
 # Define compression libraries
 compressors = {
@@ -36,15 +33,13 @@ for name, (comp_func, decomp_func) in compressors.items():
     start_time = time.time()
     for _ in range(num_compress):
         compressed_data = comp_func(data_bytes)
-        r.set('compressed_data', compressed_data)
     total_compress_time = time.time() - start_time
     compression_ratio = len(data_bytes) / len(compressed_data)
     
     # Decompression
     start_time = time.time()
     for _ in range(num_decompress):
-        retrieved_data = r.get('compressed_data')
-        decompressed_data = decomp_func(retrieved_data)
+        _ = decomp_func(compressed_data)
     total_decompress_time = time.time() - start_time
     
     # Record results

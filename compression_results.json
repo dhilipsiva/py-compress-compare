@@ -2,37 +2,37 @@
     "zlib": {
         "compression_ratio": 27.836415022034874,
         "total_compress_time": [
-            7.408879518508911
+            7.344542980194092
         ],
         "total_decompress_time": [
-            12.890191793441772
+            11.987490892410278
         ]
     },
     "lz4": {
         "compression_ratio": 18.226421603989586,
         "total_compress_time": [
-            0.1690382957458496
+            0.13016223907470703
         ],
         "total_decompress_time": [
-            0.8626720905303955
+            0.45842909812927246
         ]
     },
     "brotli": {
         "compression_ratio": 64.77683647307992,
         "total_compress_time": [
-            206.5796468257904
+            204.17940878868103
         ],
         "total_decompress_time": [
-            1.4284749031066895
+            0.991732120513916
         ]
     },
     "zstandard": {
         "compression_ratio": 43.421729059254275,
         "total_compress_time": [
-            0.19399118423461914
+            0.14809560775756836
         ],
         "total_decompress_time": [
-            0.7609338760375977
+            0.45727968215942383
         ]
     }
 }
