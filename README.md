@@ -30,7 +30,8 @@ Efficiency isn't just about space savings; time is equally crucial. Here’s how
 * LZ4: 0.13 seconds,
 * Brotli: 204.18 seconds,
 * Zstandard: 0.15 seconds.
-* LZ4 and Zstandard excel in speed, with LZ4 being slightly faster. Zlib offers a middle ground, but Brotli, despite its high compression efficiency, takes significantly longer, which could be a drawback for real-time applications.
+
+LZ4 and Zstandard excel in speed, with LZ4 being slightly faster. Zlib offers a middle ground, but Brotli, despite its high compression efficiency, takes significantly longer, which could be a drawback for real-time applications.
 
 ## Decompression Time
 
