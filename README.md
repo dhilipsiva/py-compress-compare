@@ -11,39 +11,39 @@ This test took ~1MB sample_data.json and did this:
 ```json
 {
     "zlib": {
-        "compression_ratio": 284.67244136460556,
+        "compression_ratio": 27.836415022034874,
         "total_compress_time": [
-            8.778029203414917
+            7.408879518508911
         ],
         "total_decompress_time": [
-            17.152401447296143
+            12.890191793441772
         ]
     },
     "lz4": {
-        "compression_ratio": 214.86441359887345,
+        "compression_ratio": 18.226421603989586,
         "total_compress_time": [
-            0.08249783515930176
+            0.1690382957458496
         ],
         "total_decompress_time": [
-            1.1063296794891357
+            0.8626720905303955
         ]
     },
     "brotli": {
-        "compression_ratio": 8613.637096774193,
+        "compression_ratio": 64.77683647307992,
         "total_compress_time": [
-            12.430336713790894
+            206.5796468257904
         ],
         "total_decompress_time": [
-            8.464642524719238
+            1.4284749031066895
         ]
     },
     "zstandard": {
-        "compression_ratio": 5014.511737089202,
+        "compression_ratio": 43.421729059254275,
         "total_compress_time": [
-            0.08322501182556152
+            0.19399118423461914
         ],
         "total_decompress_time": [
-            0.7950105667114258
+            0.7609338760375977
         ]
     }
 }

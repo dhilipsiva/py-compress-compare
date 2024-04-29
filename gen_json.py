@@ -22,7 +22,7 @@ num_entries = target_size // entry_size
 json_data = [data for _ in range(num_entries)]
 
 # Write the JSON data to a file
-with open('sample_data.json', 'w') as file:
+with open('sample_data_duplicate.json', 'w') as file:
     json.dump(json_data, file)
 
 print(f"Generated file 'sample_data.json' with approximately 1 MB of JSON data.")
